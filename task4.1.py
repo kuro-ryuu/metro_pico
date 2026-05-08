@@ -1,7 +1,7 @@
 from filefifo import Filefifo
 
 SAMPLE_RATE = 250
-SAMPLES = 2000
+SAMPLES = 250*20
 
 ff = Filefifo(1, name="capture_250Hz_02.txt")
 
